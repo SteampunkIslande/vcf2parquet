@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["vcf2multiparquet","vcf2parquet"],"mod":["error","name2data","record2chunk","schema"]};
