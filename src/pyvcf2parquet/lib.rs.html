@@ -83,7 +83,7 @@
 }
 
 <span class="attr">#[pyfunction]
-#[pyo3(signature = (input,output,read_buffer,batch_size=<span class="number">100_000</span>,compression=Compression::Snappy,info_optional=<span class="bool-val">false</span>))]
+#[pyo3(signature = (input,output,read_buffer=<span class="number">8192</span>,batch_size=<span class="number">100_000</span>,compression=Compression::Snappy,info_optional=<span class="bool-val">false</span>))]
 </span><span class="kw">fn </span>convert_vcf(
     input: std::path::PathBuf,
     output: std::path::PathBuf,
